@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reactacm/static/css/main.d77421a2.css",
+    "main.js": "/Reactacm/static/js/main.f138366a.js",
+    "static/js/787.c0b7f4b8.chunk.js": "/Reactacm/static/js/787.c0b7f4b8.chunk.js",
+    "index.html": "/Reactacm/index.html",
+    "main.d77421a2.css.map": "/Reactacm/static/css/main.d77421a2.css.map",
+    "main.f138366a.js.map": "/Reactacm/static/js/main.f138366a.js.map",
+    "787.c0b7f4b8.chunk.js.map": "/Reactacm/static/js/787.c0b7f4b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d77421a2.css",
+    "static/js/main.f138366a.js"
+  ]
+}
