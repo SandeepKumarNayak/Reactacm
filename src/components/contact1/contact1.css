@@ -1,0 +1,35 @@
+.contact1{
+    margin: 2vw 6vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 0px 20px 20px 20px;
+    background: white;
+}
+.contact1 .heading{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.contact1 .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact1 .container .contact-card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.contact1 .container .contact-card i{
+    font-size: 50px;
+    color: rgb(18, 133, 133);
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .contact1 .container .contact-card i{
+        font-size: 30px;
+    }
+    .contact1 .container .contact-card p{
+        font-size: 12px;
+    }
+}

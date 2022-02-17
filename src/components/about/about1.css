@@ -1,0 +1,64 @@
+.about{
+    margin: 2vw 6vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    background: white;
+}
+.about .about-acm .about-acm-content{
+    display: flex;
+}
+.about .about-acm img{
+    width: 400px;
+    display: inline-block;
+}
+.about .about-acm p{
+    display: inline-block;
+}
+
+
+.about .about-team .team-heads{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-row-gap: 20px;
+}
+.about .about-team .team-heads .team-member{
+    display: flex;
+    padding: 15px;
+    flex-basis: 50%;
+    min-width: 250px;
+    align-items: center;
+}
+.about .about-team .team-heads .team-member .image img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+     
+}
+.about .about-team .team-heads .team-member .image{
+    margin-right: 20px;
+    position: relative;
+}
+.about .about-team .team-heads .team-member .image:hover .about>.about-team>.team-heads>.team-member>.image>.links{
+    display: block;
+}
+.about .about-team .team-heads .team-member .image .links{
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+}
+.about .about-team .team-heads .team-member .image a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    /* background: white; */
+}
+
+ 

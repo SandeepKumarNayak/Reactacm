@@ -1,0 +1,56 @@
+.meet{
+    margin: 2vw 6vw;
+    padding: 2vw;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.meet .heading{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.meet .container{
+    display: flex;
+    margin-top: 1.5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.meet .contact-us{
+    padding: 20px;
+    width: 65%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.meet .container .contact-us h3{
+    font-size: 25px;
+}
+.meet .container .contact-us form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    align-content: center;
+    /* font-size: 25px; */
+}
+.meet .container .contact-us form input{
+    border: 0;
+    outline:none;
+    font-size: 18px;
+    width: 90%;
+    padding: 5px;
+    -webkit-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+}
+.meet .container .map iframe{
+    width: 460px;
+    height: 300px;
+    transform: translateX(-50px);
+    border: 2px solid black;
+}
+.meet .container .contact-us form button{
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}

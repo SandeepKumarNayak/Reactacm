@@ -1,0 +1,162 @@
+.hero-btn-link{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+    background: #00aeff;
+    width: 10vw;
+    transform: translateY(-2vw);
+    font-size: 2vw;
+    transition: all 0.5s;
+}
+.hero-btn-link:hover{
+      background: rgb(0, 140, 255);
+}
+.welcome{
+    font-size: 5vw;
+    position: relative;
+    /* color: lightseagreen; */
+    /* color: #14a7e0; */
+    color: transparent;
+    /* color: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg); */
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg); */
+    font-family: 'frozen', serif;
+
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/6963bbf342d87b3a2150bd8f59682b89.jpg);
+  	background-clip: text;
+	background-size: cover;
+    animation: nayak 2s infinite;
+}
+@keyframes nayak{
+    0%{
+        opacity: .9;
+    }
+    20%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/* Not needed for demo */
+
+@font-face {
+	font-family:'frozen'; 
+	src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Ice%20kingdom%20-%20Bold%20-%20Por%20Kustren.woff');
+}
+
+ 
+.hero .hero-content .tag{
+    font-size: 2vw;
+    color: goldenrod;
+    animation: nayak2 2s infinite;
+    /* transition: all 0.2s; */
+    font-family: Lora;
+    /* letter-spacing: 2px; */
+}
+@keyframes nayak2 {
+    0%{
+        font-size: 2.05vw;
+    }
+    10%{
+        font-size: 2.1vw;
+    }
+    20%{
+        font-size: 2.2vw;
+    }
+    30%{
+        font-size: 2.4vw;
+    }
+    40%{
+        font-size: 2.5vw;
+    }
+    50%{
+        font-size: 2.45vw;
+    }
+    60%{
+        font-size: 2.4vw;
+    }
+    70%{
+        font-size: 2.3vw;
+    }
+    80%{
+        font-size: 2.2vw;
+    }
+    90%{
+        font-size: 2.1vw;
+    }
+    100%{
+        font-size: 2vw;
+    }
+}
+.hero .hero-content .links{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 150px;
+}
+ 
+
+.hero .hero-content .links a{
+    text-decoration: none;
+    color: silver;
+    font-size: 16px;
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    /* box-shadow: 0 0 10px rgba(12, 191, 214, 0.5); */
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    border-radius: 6px;
+    transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.hero .hero-content .links a:hover{
+    box-shadow: 0 0 10px rgba(12, 191, 214, 0.5);
+    opacity: 0.8;
+}
+.hero .hero-content .heading-section{
+    margin-top: 30vh;
+}
+@media screen and (max-width:600px) {
+    .hero .hero-content .links a{
+        font-size: 12px;
+        width: 60px;
+        padding: 2px;
+        transform: translateY(8px);
+    }
+    .hero .hero-content .heading-section{
+        margin-top: 40vh;
+    }
+    .welcome{
+        font-size: 30px;
+    }
+}
+/* CSS */
+.button-70 {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

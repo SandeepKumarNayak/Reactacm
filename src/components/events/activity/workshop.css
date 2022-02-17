@@ -1,0 +1,15 @@
+.workshop {
+  margin: 2vw 6vw;
+  padding: 20px 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: white;
+}
+.workshop .heading {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  /* margin-bottom: 20px; */
+  -webkit-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 5px -3px rgba(0,0,0,0.5);
+}

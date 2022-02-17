@@ -1,0 +1,79 @@
+.footer .container1{
+    background: #282c34;
+    text-align: center;
+    align-items: center;
+    color:white;
+    padding: 2vw 10vw 4vw 10vw;
+}
+.footer .container1 .footer-title{
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.footer .container1 .footer-content{
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    margin-bottom: 1.6vw;
+}
+.footer .container1 a{
+    text-decoration: none;
+    font-size: 1.4vw;
+    padding: 3px 25px;
+    border: 2px solid white;
+    color: white;
+    /* transition: all 0.5s ease-in-out; */
+}
+ 
+
+
+.footer .container2{
+    background: #20232a;
+    text-align: center;
+    align-items: center;
+    color:white;
+    padding: 2vw 10vw;
+}
+.footer .container2 p{
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.footer .container2 .footer-links{
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container2 .footer-links .link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6vw;
+    transition: all 0.5s ease-in-out;
+}
+.footer .container2 .footer-links .link:hover{
+    transform: translateY(-1px);
+}
+.footer .container2 .social-links{
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.footer .container2 .social-links a{
+    font-size:25px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+.footer .container2 .social-links a:hover{
+    transform: translateY(-1px);
+}
+.footer .container2 .rights p{
+    text-align: center;
+    font-size: 16px;
+}
+.footer .container2 .devloper p{
+    font-size: 16px;
+    text-align: center;
+}
+
+ 
