@@ -17,7 +17,7 @@ function App() {
     setLoading(true)
     setTimeout(() =>{
       setLoading(false)
-    },4000)
+    },1000)
   },[])
   return (
     <>
@@ -30,7 +30,6 @@ function App() {
       :
       <Router>
           <ScrollToTop/>
-          <h1>Hello sandeep</h1>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About />} />
@@ -38,6 +37,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/event" element={<Event/>} />
           <Route path="/join" element={<Join/>} />
+          <Route path="/*" element={<Home/>}/>
         </Routes>
       </Router>
     }
