@@ -28,8 +28,7 @@ function App() {
          
       </div>
       :
-      <div>
-      <h1>Hello sandeep</h1>
+      
       <Router>
           <ScrollToTop/>
         <Routes>
@@ -45,7 +44,6 @@ function App() {
           <Route path="/*/" element={<Home/>}/>
         </Routes>
       </Router>
-<div/>
     }
     </>
   );
