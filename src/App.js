@@ -33,15 +33,11 @@ function App() {
           <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Reactacm" element={<Home/>}/>
-          <Route path="/Reactacm/" element={<Home/>}/>
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/event" element={<Event/>} />
           <Route path="/join" element={<Join/>} />
-          <Route path="/*" element={<Home/>}/>
-          <Route path="/*/" element={<Home/>}/>
         </Routes>
       </Router>
     }
