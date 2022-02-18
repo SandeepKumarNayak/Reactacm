@@ -1,4 +1,4 @@
-// import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import HashLoader from "react-spinners/HashLoader";
 import Contact from "./pages/contact/Contact";
 import { useState,useEffect } from "react";
@@ -28,19 +28,19 @@ function App() {
          
       </div>
       :
-      <Home/>
+//       <Home/>
       
-//       <Router>
-//           <ScrollToTop/>
-//         <Routes>
-//           <Route path="/" element={<Home/>}/>
-//           <Route path="/about" element={<About />} />
-//           <Route path="/blog" element={<Blog/>} />
-//           <Route path="/contact" element={<Contact/>} />
-//           <Route path="/event" element={<Event/>} />
-//           <Route path="/join" element={<Join/>} />
-//         </Routes>
-//       </Router>
+      <Router>
+          <ScrollToTop/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/event" element={<Event/>} />
+          <Route path="/join" element={<Join/>} />
+        </Routes>
+      </Router>
     }
     </>
   );
