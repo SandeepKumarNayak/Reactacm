@@ -38,6 +38,7 @@ function App() {
           <Route path="/event" element={<Event/>} />
           <Route path="/join" element={<Join/>} />
           <Route path="/*" element={<Home/>}/>
+          <Route path="/*/" element={<Home/>}/>
         </Routes>
       </Router>
     }
